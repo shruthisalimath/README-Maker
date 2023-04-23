@@ -1,19 +1,84 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+  if(license === null || license === ""){
+    return ``;
+  }
+  else{
+    let licenseResult = `https://shields.io/badge/license-"+license+"-brightgreen`;
+    return `${licenseResult}`;
+  }
+};
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  if (license === 'MIT'){
+    return `https://choosealicense.com/licenses/mit/`;
+  }
+  else if (license === 'Apache2.0'){
+    return `https://choosealicense.com/licenses/apache-2.0/`;
+  }
+  else if (license === 'GPLv3'){
+    return `https://choosealicense.com/licenses/gpl-3.0/`;
+  }
+  else if (license === 'Mozilla Public License2.0'){
+    return `https://choosealicense.com/licenses/mpl-2.0/`;
+  }
+  else if (license === 'The Unlisence'){
+    return `https://choosealicense.com/licenses/unlicense/`;
+  }
+  else{
+    return ``;
+  }
+};
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  if(license === null || license === ""){
+    return ``;
+  }
+  else{
+    return ' * This application is licensed under ${license}. * Click the link for the detailed license terms and conditions ${renderLicenseLink(license)}';
+  }
+};
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-`;
+  ${renderLicenseBadge(data.license)}
+  ## Description :
+  ${data.description}
+
+  ## Table of contents :
+  *[Installation](#Installation)
+  *[Usage](#Usage)
+  *[License](#License)
+  *[Contributors](#Contributors)
+  *[Test](#Test)
+  *[Questions](#Questions)
+
+  ## Installation :
+  Install necessary Dependencies using the following command :
+  ${data.installation}
+
+  ## Usage :
+  ${data.usage}
+
+  ## License :
+  ${renderLicenseSection(data.license)}
+
+  ## Contributor :
+  ${data.contributor}
+
+  ## Test :
+  ${data.test}
+
+  ## Questions :
+  * Link to my GitHub profile : https://github.com/${data.username}  
+  * For additional questions reach me at : ${data.email}
+  `;
 }
 
 module.exports = generateMarkdown;
