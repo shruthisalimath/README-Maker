@@ -5,7 +5,7 @@ function renderLicenseBadge(license) {
     return ``;
   }
   else{
-    let licenseResult = `https://shields.io/badge/license-"+license+"-brightgreen`;
+    let licenseResult = `https://shields.io/badge/license-${license}-brightgreen`;
     return `${licenseResult}`;
   }
 };
@@ -39,8 +39,9 @@ function renderLicenseSection(license) {
   if(license === null || license === ""){
     return ``;
   }
-  else{
-    return ' * This application is licensed under ${license}. * Click the link for the detailed license terms and conditions ${renderLicenseLink(license)}';
+  else {
+    return `* This application is licensed under : ${license}.
+   * Click the link for the detailed license information: ${renderLicenseLink(license)}`;
   }
 };
 
@@ -48,16 +49,17 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
   ${renderLicenseBadge(data.license)}
+
   ## Description :
   ${data.description}
 
   ## Table of contents :
-  *[Installation](#Installation)
-  *[Usage](#Usage)
-  *[License](#License)
-  *[Contributors](#Contributors)
-  *[Test](#Test)
-  *[Questions](#Questions)
+  * [Installation](#Installation)
+  * [Usage](#Usage)
+  * [License](#License)
+  * [Contributors](#Contributors)
+  * [Test](#Test)
+  * [Questions](#Questions)
 
   ## Installation :
   Install necessary Dependencies using the following command :
@@ -76,8 +78,10 @@ function generateMarkdown(data) {
   ${data.test}
 
   ## Questions :
-  * Link to my GitHub profile : https://github.com/${data.username}  
-  * For additional questions reach me at : ${data.email}
+  * GitHub Username : ${data.username}
+  * Email: ${data.email}
+  * GitHub profile : https://github.com/${data.username}  
+  
   `;
 }
 
