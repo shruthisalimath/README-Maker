@@ -5,7 +5,7 @@ function renderLicenseBadge(license) {
     return ``;
   }
   else{
-    let licenseResult = `https://shields.io/badge/license-${license}-brightgreen`;
+    let licenseResult = `![GitHub License](https://shields.io/badge/license-${license}-brightgreen)`;
     return `${licenseResult}`;
   }
 };
@@ -40,7 +40,7 @@ function renderLicenseSection(license) {
     return ``;
   }
   else {
-    return `* This application is licensed under : ${license}.
+    return `* This application is licensed under : ${renderLicenseBadge(license)}
    * Click the link for the detailed license information: ${renderLicenseLink(license)}`;
   }
 };
@@ -54,12 +54,12 @@ function generateMarkdown(data) {
   ${data.description}
 
   ## Table of contents :
-  * [Installation](#Installation)
-  * [Usage](#Usage)
-  * [License](#License)
-  * [Contributors](#Contributors)
-  * [Test](#Test)
-  * [Questions](#Questions)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributors](#contributors)
+  * [Test](#test)
+  * [Questions](#questions)
 
   ## Installation :
   Install necessary Dependencies using the following command :
