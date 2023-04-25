@@ -1,4 +1,4 @@
-# PROFESIONAL README GENERATOR
+# PROFESSIONAL README GENERATOR
   ![GitHub License](https://shields.io/badge/license-MIT-brightgreen)
 
   ## Description :
@@ -14,7 +14,7 @@
 
   ## Installation :
   Install necessary Dependencies using the following command :
-  npm i 
+  npm i
 
   ## Usage :
   In the terminal, run node index.js to start the application.
@@ -23,7 +23,7 @@
   * This application is licensed under : ![GitHub License](https://shields.io/badge/license-MIT-brightgreen)
    * Click the link for the detailed license information: https://choosealicense.com/licenses/mit/
 
-  ## Contributor :
+  ## Contributors :
   shruthi
 
   ## Test :

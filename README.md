@@ -42,20 +42,20 @@ THEN I am taken to the corresponding section of the README
 5. Your README should be written in standard Markdown format with the title of your project listed at the top of the page. A License Badge should be displayed below the title of your project. Your README file should also contain a table of contents that corresponds to the headers for each section: Description, Installation, Usage, license, Contributors, Tests, Questions.
 
 ## Resources 
-[Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
-
-[Shields IO](https://shields.io/category/license)
-
-[Choose a license](https://choosealicense.com/)
+* [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+* [Shields IO](https://shields.io/category/license)
+* [Choose a license](https://choosealicense.com/)
     
 
 ## URL Submittion
 1. A walkthrough video demonstration.
+     ![README GENERATOR VIDEO](Develop/Images/README_GENERATOR_VIDEO.webm)
 
 2. The URL of the GitHub repository.
+    https://github.com/shruthisalimath/README-Maker
 
 ## ScreenShot of a Sample README.md file generated from the application.
-[Professional README Generator]()
+![Professional README Generator Screen shot](Develop/Images/Screen-shot-readme-generator.png)
 
 
 
