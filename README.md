@@ -49,7 +49,7 @@ THEN I am taken to the corresponding section of the README
 
 ## URL Submittion
 1. A walkthrough video demonstration.
-     ![README GENERATOR VIDEO](Develop/Images/README_GENERATOR_VIDEO.webm)
+     [README GENERATOR VIDEO](Develop/Images/README_GENERATOR_VIDEO.webm)
 
 2. The URL of the GitHub repository.
     https://github.com/shruthisalimath/README-Maker
