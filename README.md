@@ -30,15 +30,15 @@ THEN I am taken to the corresponding section of the README
 1. Install NODE.js to run this application
 2. Create a .gitignore file and include node_modules/ and .DS_Store/ so that your node_modules directory isn't tracked or uploaded to GitHub. Be sure to create your .gitignore file before installing any npm dependencies.
 3. Make sure that your repo includes a package.json with the required dependencies. You can create one by running npm init when you first set up the project, before installing any dependencies.
-4. Run command npm i inquirer@verson8.2.4 from the integrated terminal to install inquirer.js package dependency.
+4. Run command npm i inquirer@8.2.4 from the integrated terminal to install inquirer.js package dependency.
 5. The application will be invoked by using the following command: node index.js
 
 ## Usage 
 
 1. With the application invoked, you'll be prompted to answer a series of questions from the command line to generate a README.md for your project.
 2. Each question will pertain to a specific section of the README file you're creating. The questions for this application are located in the index.js file of this repository.
-3. Enter after answering each question to continue to the next prompt. When all the prompts are completed, a README.md file will automatically generate inside the explorer window of your project's repository.
-4. Open the GenerateReadMe.md file to view the results. You should now have a high-quality README file to use as a template for all your projects.
+3. Enter after answering each question to continue to the next prompt. When all the prompts are completed, a README.md file will automatically generated. 
+4. Open the ReadMe.md file to view the results. You should now have a high-quality README file to use as a template for all your projects.
 5. Your README should be written in standard Markdown format with the title of your project listed at the top of the page. A License Badge should be displayed below the title of your project. Your README file should also contain a table of contents that corresponds to the headers for each section: Description, Installation, Usage, license, Contributors, Tests, Questions.
 
 ## Resources 
