@@ -55,13 +55,13 @@ function generateMarkdown(data) {
 
   ## Table of contents :
   * [Installation](#installation)
-  * [Usage](#usage)
+  * [Usage](#usage-:)
   * [License](#license)
   * [Contributors](#contributors)
   * [Test](#test)
   * [Questions](#questions)
 
-  ## Installation :
+  ## Installation
   Install necessary Dependencies using the following command :
   ${data.installation}
 
