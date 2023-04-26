@@ -57,6 +57,10 @@ THEN I am taken to the corresponding section of the README
 ## ScreenShot of a Sample README.md file generated from the application.
 ![Professional README Generator Screen shot](Develop/Images/Screen-shot-readme-generator.png)
 
+## Sample README 
+
+![Sample README.md file](Develop/Images/SAMPLE-README.jpg)
+
 
 
 
