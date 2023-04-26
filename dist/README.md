@@ -6,9 +6,9 @@
 
   ## Table of contents :
   * [Installation](#installation)
-  * [Usage](#usage)
+  * [Usage](#usage-:)
   * [License](#license)
-  * [Contributors](#contributors)
+  * [Contributors](#Contributors)
   * [Test](#test)
   * [Questions](#questions)
 
@@ -26,7 +26,7 @@
   ## Contributors :
   xvxv
 
-  ## Test :
+  ## Test
   cvxv
 
   ## Questions :
