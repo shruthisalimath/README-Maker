@@ -1,8 +1,8 @@
-# dfdsf
-  ![GitHub License](https://shields.io/badge/license-Apache2.0-brightgreen)
+# PROFESSIONAL README GENERATOR
+  ![GitHub License](https://shields.io/badge/license-MIT-brightgreen)
 
   ## Description :
-  sdf
+  This app allows developers to create a professional README.md file in a way that is clean, efficient and easy to use.
 
   ## Table of contents :
   * [Installation](#installation)
@@ -12,26 +12,26 @@
   * [Test](#test)
   * [Questions](#questions)
 
-  ## Installation :
+  ## Installation
   Install necessary Dependencies using the following command :
-  sdf
+  npm i
 
-  ## Usage :
-  dfsdf
+  ## Usage
+  In the terminal, run node index.js to start the application.
 
-  ## License :
-  * This application is licensed under : ![GitHub License](https://shields.io/badge/license-Apache2.0-brightgreen)
-   * Click the link for the detailed license information: https://choosealicense.com/licenses/apache-2.0/
+  ## License
+  * This application is licensed under : ![GitHub License](https://shields.io/badge/license-MIT-brightgreen)
+   * Click the link for the detailed license information: https://choosealicense.com/licenses/mit/
 
-  ## Contributors :
-  xvxv
+  ## Contributors
+  shruthi
 
-  ## Test :
-  cvxv
+  ## Test
+  npm test
 
-  ## Questions :
-  * GitHub Username : sss
-  * Email: ss
-  * GitHub profile : https://github.com/sss  
+  ## Questions
+  * GitHub Username : shruthisalimath
+  * Email: shruthi@test.com
+  * GitHub profile : https://github.com/shruthisalimath  
   
   
